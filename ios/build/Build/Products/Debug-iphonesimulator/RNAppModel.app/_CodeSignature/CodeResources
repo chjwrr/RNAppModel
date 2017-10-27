@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		aRUEmBDoLYs415wsNohs5z2v3xs=
+		bPALWn9ameBObxkPtb9I2njWJ6M=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -432,7 +432,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PnTZQpvSynGnW7TUADjcr3KfE6g=
+		LH0LytedRAYnvJQs51Sf7ULYJtU=
+		</data>
+		<key>LaunchImage-1100-2436h@3x.png</key>
+		<data>
+		JLA87Ntz+I3jhDZSzlYASR08nGM=
+		</data>
+		<key>LaunchImage-700-568h@2x.png</key>
+		<data>
+		svbx7YQfbXfDkYj5JchThUV+94M=
+		</data>
+		<key>LaunchImage-700@2x.png</key>
+		<data>
+		3Ho2X81X0qhKnXXfg2cATowMi+4=
+		</data>
+		<key>LaunchImage-800-667h@2x.png</key>
+		<data>
+		A+SUxsCDdMHvgteiuPB0/iWfNWQ=
+		</data>
+		<key>LaunchImage-800-Landscape-736h@3x.png</key>
+		<data>
+		06VQraFxZGtlX7kNkEh2EFnRe4w=
+		</data>
+		<key>LaunchImage-800-Portrait-736h@3x.png</key>
+		<data>
+		PxgcMSKx/xtudVaImNZldxM8r9g=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -452,7 +476,7 @@
 		</data>
 		<key>PlugIns/RNAppModelTests.xctest/RNAppModelTests</key>
 		<data>
-		xCbQ82dDEl15hS1lklvsiKfVvvQ=
+		4voZ0o+Hq9dhKWy/VsoKvv9i/oQ=
 		</data>
 		<key>PlugIns/RNAppModelTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -465,11 +489,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aRUEmBDoLYs415wsNohs5z2v3xs=
+			bPALWn9ameBObxkPtb9I2njWJ6M=
 			</data>
 			<key>hash2</key>
 			<data>
-			ruxoYe3qBRY1v1AFBKuglCsxmKkoghUuYeANgbhcZTE=
+			UI8OuI2bbi3JSVCu0qyUclITFxhIT6wF/bz+j8K94yU=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -1186,6 +1210,72 @@
 			psn3f9GzyAkXmzTU+vf5xjnZ5KNVLj89BwSJrmxGCqc=
 			</data>
 		</dict>
+		<key>LaunchImage-1100-2436h@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JLA87Ntz+I3jhDZSzlYASR08nGM=
+			</data>
+			<key>hash2</key>
+			<data>
+			BVB27icofr8hsjoMvAvJ/1vOxOmii80LqslE6qDIR+Y=
+			</data>
+		</dict>
+		<key>LaunchImage-700-568h@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			svbx7YQfbXfDkYj5JchThUV+94M=
+			</data>
+			<key>hash2</key>
+			<data>
+			E8T4xiQTiDTLxF/ey2BSGzYE9n6SC82w+PljmpRIQBw=
+			</data>
+		</dict>
+		<key>LaunchImage-700@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3Ho2X81X0qhKnXXfg2cATowMi+4=
+			</data>
+			<key>hash2</key>
+			<data>
+			cNiIdpTsdiPtn03u0ejP/kMXdlNmXL3po29JL0L7Pt8=
+			</data>
+		</dict>
+		<key>LaunchImage-800-667h@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A+SUxsCDdMHvgteiuPB0/iWfNWQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			KAAiK3za1H4EIhwYj9IjhIuAK9//eeiw9zlgI5l0RiM=
+			</data>
+		</dict>
+		<key>LaunchImage-800-Landscape-736h@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			06VQraFxZGtlX7kNkEh2EFnRe4w=
+			</data>
+			<key>hash2</key>
+			<data>
+			U9R+0rttJCPAi5DO7sA8h8eyEtZl934TyNSg5CnkICM=
+			</data>
+		</dict>
+		<key>LaunchImage-800-Portrait-736h@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PxgcMSKx/xtudVaImNZldxM8r9g=
+			</data>
+			<key>hash2</key>
+			<data>
+			J98vfZE/8qAAzb50bWxsemdKRtNuzXt2bXI/Xj10vWw=
+			</data>
+		</dict>
 		<key>PlugIns/RNAppModelTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -1223,11 +1313,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xCbQ82dDEl15hS1lklvsiKfVvvQ=
+			4voZ0o+Hq9dhKWy/VsoKvv9i/oQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			6OO1Q9OaJoae7u/GYOPEgGv3Frg4P7txGHepnn3VsFA=
+			xF3G8FGvxIXLT2ZtSmjYFiFFCDplJfPnDo2DKvaFEhU=
 			</data>
 		</dict>
 		<key>PlugIns/RNAppModelTests.xctest/_CodeSignature/CodeResources</key>

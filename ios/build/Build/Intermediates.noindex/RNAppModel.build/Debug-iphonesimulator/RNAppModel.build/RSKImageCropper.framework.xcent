@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>X3FH2834S4.org.reactjs.native.example.RNAppModel</string>
+	<string>X3FH2834S4.com.rn.model</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>X3FH2834S4.org.reactjs.native.example.RNAppModel</string>
+		<string>X3FH2834S4.com.rn.model</string>
 	</array>
 </dict>
 </plist>

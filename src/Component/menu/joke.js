@@ -61,7 +61,7 @@ export default class joke extends Component<{}> {
     /*row*/
     renderItem(item){
         return (
-            <View style={{backgroundColor: '#F6F7F6'}}>
+            <View style={{backgroundColor: '#F5FCFF'}}>
                 <Text style={{marginVertical: 5, backgroundColor: 'white', padding: 10, lineHeight: 30, fontSize: 15}}>
                     {item.content}
                 </Text>
@@ -118,16 +118,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         marginBottom: ConstValue.Tabbar_marginBottom,
-    },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
-    },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5,
     },
 });
 
