@@ -4,7 +4,7 @@
  * @flow
  */
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
     StyleSheet,
     Text,
@@ -12,35 +12,15 @@ import {
     TouchableOpacity,
     Image,
 } from 'react-native';
+import PropTypes from 'prop-types'
+
 import *as ConstValue from '../Const/constValue';
 
 import BackImag from '../asset/navigation/navigation_back.png';
 import RightImage from '../asset/navigation/navigation_right_nor.png';
 
 export default class navigationBar extends Component<{}> {
-    /*声明属性*/
-    static propTypes = {
-        title: PropTypes,
-        showLeftItem: PropTypes,
-        leftItemType: PropTypes,
-        leftTitle: PropTypes,
-        showRightItem: PropTypes,
-        rightItemType: PropTypes,
-        rightTitle: PropTypes,
-        rightImage: PropTypes,
-    };
 
-    /*属性默认值*/
-    static defaultProps = {
-        title: '标题',
-        showLeftItem: true,
-        leftItemType: 'image',
-        leftTitle: '返回',
-        showRightItem: false,
-        rightItemType: 'text',
-        rightTitle: '完成',
-        rightImage: RightImage,
-    };
     constructor(props){
         super(props);
     }
@@ -115,7 +95,27 @@ export default class navigationBar extends Component<{}> {
     }
 }
 
+/*声明属性*/
+navigationBar.propTypes = {
+    title: PropTypes.string,
+    showLeftItem: PropTypes.bool,
+    leftItemType: PropTypes.string,
+    leftTitle: PropTypes.string,
+    showRightItem: PropTypes.bool,
+    rightItemType: PropTypes.string,
+    rightTitle: PropTypes.string,
+};
 
+/*属性默认值*/
+navigationBar.defaultProps = {
+    title: '标题',
+    showLeftItem: true,
+    leftItemType: 'image',
+    leftTitle: '返回',
+    showRightItem: false,
+    rightItemType: 'text',
+    rightTitle: '完成',
+};
 const styles = StyleSheet.create({
     container: {
         backgroundColor: 'red',
