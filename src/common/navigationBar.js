@@ -27,6 +27,7 @@ export default class navigationBar extends Component<{}> {
 
     render() {
         const {
+            navigator,
             title,
             showLeftItem,
             leftItemType,
@@ -34,7 +35,9 @@ export default class navigationBar extends Component<{}> {
             showRightItem,
             rightItemType,
             rightTitle,
-            rightImage
+            rightImage,
+            leftAction,
+            rightAction,
         } = this.props;
         return (
             <View style={styles.container}>
@@ -47,11 +50,28 @@ export default class navigationBar extends Component<{}> {
                             if (showLeftItem){
                                 if (leftItemType === 'text'){
                                     return (
-                                        <Text style={{textAlign: 'left', color: 'white'}}>{leftTitle}</Text>
+                                        <TouchableOpacity onPress={()=>{
+                                            if (leftAction){
+                                                leftAction();
+                                            }else {
+                                                navigator.goBack();
+                                            }
+                                        }}>
+                                            <Text style={{textAlign: 'left', color: 'white'}}>{leftTitle}</Text>
+                                        </TouchableOpacity>
                                     )
                                 }else {
                                     return (
-                                        <Image source={BackImag}/>
+                                        <TouchableOpacity onPress={()=>{
+                                            if (leftAction){
+                                                leftAction();
+                                            }else {
+                                                navigator.goBack();
+                                            }
+                                        }}>
+                                            <Image source={BackImag}/>
+                                        </TouchableOpacity>
+
                                     )
                                 }
                             }else
@@ -72,15 +92,23 @@ export default class navigationBar extends Component<{}> {
                                 if (showRightItem){
                                     if (rightItemType === 'text'){
                                         return (
-                                            <View style={{justifyContent: 'flex-end'}}>
-                                                <Text style={{textAlign: 'right', color: 'white'}}>{rightTitle}</Text>
-                                            </View>
+                                            <TouchableOpacity onPress={()=>{
+                                                rightAction();
+                                            }}>
+                                                <View style={{justifyContent: 'flex-end'}}>
+                                                    <Text style={{textAlign: 'right', color: 'white'}}>{rightTitle}</Text>
+                                                </View>
+                                            </TouchableOpacity>
                                         )
                                     }else {
                                         return (
-                                            <View style={{justifyContent: 'flex-end'}}>
-                                                <Image source={rightImage}/>
-                                            </View>
+                                            <TouchableOpacity onPress={()=>{
+                                                rightAction();
+                                            }}>
+                                                <View style={{justifyContent: 'flex-end'}}>
+                                                    <Image source={rightImage}/>
+                                                </View>
+                                            </TouchableOpacity>
                                         )
                                     }
                                 }else
