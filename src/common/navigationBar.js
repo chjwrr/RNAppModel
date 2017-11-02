@@ -82,7 +82,7 @@ export default class navigationBar extends Component<{}> {
 
 
                     <View style={{flex: 2}}>
-                        <Text style={{fontSize: 20, color: 'white', textAlign: 'center',}}>{title}</Text>
+                        <Text numberOfLines={1} style={{fontSize: 20, color: 'white', textAlign: 'center'}}>{title}</Text>
                     </View>
 
 
