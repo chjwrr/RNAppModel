@@ -4,6 +4,7 @@
         "@remobile/react-native-toast": "^1.0.7", // 提示框
         "crypto-js": "^3.1.9-1", // JavaScript 加密库
         "moment": "^2.19.1", // JavaScript 日期处理类库
+        "native-base": "^2.3.5", // 组件通用类，可以直接替代 react 组件
         "react": "16.0.0-beta.5",
         "react-native": "0.49.3",
         "react-native-audio": "^3.2.2", // 录音

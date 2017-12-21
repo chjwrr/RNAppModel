@@ -10,6 +10,7 @@
     "@remobile/react-native-toast": "^1.0.7",
     "crypto-js": "^3.1.9-1",
     "moment": "^2.19.1",
+    "native-base": "^2.3.5",
     "react": "16.0.0-beta.5",
     "react-native": "0.49.3",
     "react-native-audio": "^3.2.2",
