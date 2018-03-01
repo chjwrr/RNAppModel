@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mymac/Desktop/RNAppModel/node_modules/react-native-fetch-blob/ios/RNFetchBlobProgress.m \
-  /Users/mymac/Desktop/RNAppModel/node_modules/react-native-fetch-blob/ios/RNFetchBlobProgress.h
+  /Users/mymac/Downloads/RNAppModel/node_modules/react-native-fetch-blob/ios/RNFetchBlobProgress.m \
+  /Users/mymac/Downloads/RNAppModel/node_modules/react-native-fetch-blob/ios/RNFetchBlobProgress.h

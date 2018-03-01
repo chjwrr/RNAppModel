@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/mymac/Desktop/RNAppModel/node_modules/react-native-image-crop-picker/ios/QBImagePicker/QBImagePicker/QBAlbumCell.m \
-  /Users/mymac/Desktop/RNAppModel/ios/build/Build/Intermediates.noindex/QBImagePicker.build/Debug-iphonesimulator/QBImagePicker.build/module.modulemap \
-  /Users/mymac/Desktop/RNAppModel/node_modules/react-native-image-crop-picker/ios/QBImagePicker/QBImagePicker/QBAlbumCell.h
+  /Users/mymac/Downloads/RNAppModel/node_modules/react-native-image-crop-picker/ios/QBImagePicker/QBImagePicker/QBAlbumCell.m \
+  /Users/mymac/Downloads/RNAppModel/ios/build/Build/Intermediates.noindex/QBImagePicker.build/Debug-iphonesimulator/QBImagePicker.build/module.modulemap \
+  /Users/mymac/Downloads/RNAppModel/node_modules/react-native-image-crop-picker/ios/QBImagePicker/QBImagePicker/QBAlbumCell.h

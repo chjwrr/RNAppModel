@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/mymac/Desktop/RNAppModel/node_modules/react-native-camera/ios/NSMutableDictionary+ImageMetadata.m
+  /Users/mymac/Downloads/RNAppModel/node_modules/react-native-camera/ios/NSMutableDictionary+ImageMetadata.m

@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/mymac/Desktop/RNAppModel/node_modules/react-native/React/Views/RCTSlider.m \
-  /Users/mymac/Desktop/RNAppModel/node_modules/react-native/React/Views/RCTSlider.h \
-  /Users/mymac/Desktop/RNAppModel/node_modules/react-native/React/Views/RCTComponent.h
+  /Users/mymac/Downloads/RNAppModel/node_modules/react-native/React/Views/RCTSlider.m \
+  /Users/mymac/Downloads/RNAppModel/node_modules/react-native/React/Views/RCTSlider.h \
+  /Users/mymac/Downloads/RNAppModel/node_modules/react-native/React/Views/RCTComponent.h
